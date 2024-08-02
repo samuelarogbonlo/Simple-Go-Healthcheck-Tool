@@ -6,6 +6,7 @@ The tool queries each server's /healthz endpoint to collect data on the server's
 
 ## Prerequisities
 - Golang
+- Server.txt file
 
 ## Features
 - Concurrent health checks on multiple servers.
@@ -19,12 +20,19 @@ The tool queries each server's /healthz endpoint to collect data on the server's
 git clone https://github.com/samuelarogbonlo/cloud-.git
 cd health-check-aggregator
 ```
-
-
+- Build the project
+```
+make run
+```
+> **_Note:_**
+- If you wish to clean up your stack use the command below:
+```
+make clean
+```
 
 # Maintainers
 
-[@samuelarogbonlo](https://github.com/samuelarogbonlo)
+[@samuelarogbonlo](https://github.com/samuelarogbonlo). Contributions are welcome! Please open an issue or submit a pull request with your improvements.
 
 # License
 
