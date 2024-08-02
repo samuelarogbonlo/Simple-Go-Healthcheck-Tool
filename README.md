@@ -25,7 +25,7 @@ cd health-check-aggregator
 make run
 ```
 > **_Note:_**
-- If you wish to clean up your stack use the command below:
+If you wish to clean up your stack use the command below:
 ```
 make clean
 ```
