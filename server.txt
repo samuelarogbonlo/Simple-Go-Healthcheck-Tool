@@ -1,0 +1,4 @@
+server-0001.cloud-ops-interview.sgdev.org
+server-0002.cloud-ops-interview.sgdev.org
+...
+server-1000.cloud-ops-interview.sgdev.org
