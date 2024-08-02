@@ -13,6 +13,7 @@ The tool queries each server's /healthz endpoint to collect data on the server's
 - Aggregation of health check results by application and version.
 - Calculation of success rates.
 - Detailed report generation in both console output and JSON file.
+- Makefile to automate building and running processes
 
 ## Installation And Testing
 - Clone the repository
